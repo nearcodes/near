@@ -1378,29 +1378,13 @@ position: absolute;
 @media (min-width: 360px) and  (max-width:499px ) {
 .intro--banner {
 height: 305px; }
-.intro--banner h1 {
-font-size: 18px;
-word-wrap: break-word;
-width: 110%;
-top: 220px;
-text-align: center;
-padding-bottom: 50px;
-}
+.intro--banner h1 {font-size: 18px;word-wrap: break-word;width: 110%;top: 200px;text-align: center;padding-bottom: 50px;}
 .intro--banner img {
 width: 75%;
 bottom: 146px;
 left: 14%;
 }
-.intro--banner button {
-position: relative;
-padding: 5px 17px 5px 12px;
-font-weight: 700;
-text-transform: uppercase;
-background-color: transparent;
-border: none;
-left: 33%;
-top: 250px;
-}
+.intro--banner button {position: relative;padding: 5px 17px 5px 12px;font-weight: 700;text-transform: uppercase;background-color: transparent;border: none;left: 33%;top: 200px;}
 .output{
 font-size: 12px;
 word-break: break-all;
