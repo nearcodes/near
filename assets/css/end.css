@@ -290,7 +290,7 @@ justify-content: flex-end; }
 width: 33px;
 height: 30px;
 }
-.cofee.list-unstyled {left: 26%;top: 115px;position:  relative;}
+.cofee.list-unstyled {left: 26%;top: 100px;position:  relative;}
 @media (min-width: 501px) and  (max-width:800px) {
 .list-unstyled {
 padding-left: 0;
