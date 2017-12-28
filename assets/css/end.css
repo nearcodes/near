@@ -290,7 +290,7 @@ justify-content: flex-end; }
 width: 33px;
 height: 30px;
 }
-.cofee.list-unstyled {left: 26%;top: 100px;position:  relative;}
+.cofee.list-unstyled {left: 26%;top: 95px;position:  relative;}
 @media (min-width: 501px) and  (max-width:800px) {
 .list-unstyled {
 padding-left: 0;
@@ -342,11 +342,7 @@ font-size: 2em;
 
 
 @media (max-width: 499px) and (max-height: 832px ) {
-.intro--banner img {
-width: 54%;
-bottom: 36%;
-left: 24%;
-}
+.intro--banner img {width: 54%;bottom: 50%;left: 24%;}
 .intro--options {
 	display: none
 }
