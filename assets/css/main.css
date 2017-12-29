@@ -1191,11 +1191,12 @@ transition-delay: 0.08s; }
 transition-delay: 0.12s; }
 .outer-nav li.is-vis:nth-child(5) {
 transition-delay: 0.16s; }
-
-
-
 .prompt{width: 400px;}
-.output {color: #aa9a3f;line-height: 55px;}
+.output {color: #aa9a3f;
+ line-height: 55px;
+ word-wrap: break-word;
+ width: 88%;
+ font-size: 85%;}
 
 @media (max-width: 600px) {
 
@@ -1204,8 +1205,6 @@ transition-delay: 0.16s; }
 width: 50%;
 
 }
-
-
 }
 @media (min-width: 500px) and  (max-width:599px ) {
 .intro--banner h1 {
@@ -1435,7 +1434,6 @@ font-family: Verdana, Geneva, sans-serif;}
 color: #fff;
 letter-spacing: 5px;
 }
-
 
 .header--logo img {
 width: 52px;
