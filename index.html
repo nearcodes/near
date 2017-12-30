@@ -166,10 +166,11 @@ i bring the Designes concept to life through a mix of HTML, CSS and JavaScript.i
 <li class="l-section section">
 <div class="hire">
 <h2>You want me to do</h2>
-<form class="work-request">
+<form class="work-request" action="http://formspree.io/ayoub.aitennajjar@gmail.com"
+      method="POST">
 <div class="work-request--options">
 <span class="options-a">
-<input id="opt-1" type="checkbox" value="app design">
+<input id="opt-1" type="checkbox" value="app design" name="message">
 <label for="opt-1">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -179,7 +180,7 @@ viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="pres
 </svg>
 App Design
 </label>
-<input id="opt-2" type="checkbox" value="graphic design">
+<input id="opt-2" type="checkbox" value="graphic design" name="message">
 <label for="opt-2">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -189,7 +190,7 @@ viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="pres
 </svg>
 Graphic Design
 </label>
-<input id="opt-3" type="checkbox" value="netdev">
+<input id="opt-3" type="checkbox" value="netdev" name="message">
 <label for="opt-3">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -201,7 +202,7 @@ viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="pres
 </label>
 </span>
 <span class="options-b">
-<input id="opt-4" type="checkbox" value="ux design">
+<input id="opt-4" type="checkbox" value="ux design" name="message">
 <label for="opt-4">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -211,7 +212,7 @@ viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="pres
 </svg>
 UX Design
 </label>
-<input id="opt-5" type="checkbox" value="webdesign">
+<input id="opt-5" type="checkbox" value="webdesign" name="message">
 <label for="opt-5">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -221,7 +222,7 @@ viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="pres
 </svg>
 Web Design
 </label>
-<input id="opt-6" type="checkbox" value="webdev">
+<input id="opt-6" type="checkbox" value="webdev" name="message">
 <label for="opt-6">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -235,15 +236,16 @@ Web Development
 </div>
 <div class="work-request--information">
 <div class="information-name">
-<input id="name" type="text" spellcheck="false">
+<input id="name" type="text" spellcheck="false" name="name">
 <label for="name">Name</label>
 </div>
 <div class="information-email">
-<input id="email" type="email" spellcheck="false">
+<input id="email" type="email" spellcheck="false" name="_replyto">
 <label for="email">Email</label>
 </div>
 </div>
 <input type="submit" value="Send Request" >
+ <input type="hidden" name="_next" value="https://neardesu.github.io/near">
 </form>
 </div>
 </li>
