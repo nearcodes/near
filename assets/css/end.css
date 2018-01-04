@@ -450,10 +450,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     /* margin:  0; */
 }
 .output {
-    font-size: 10.5px;
+    font-size: 9.5px;
     word-break: break-word;
-    width: 111%;
+    width: 107%;
     line-height: 179%;
+    text-align: center;
 }
 .intro--banner h1 {font-size: 15px;word-wrap: break-word;width: 110%;top: 40px;text-align: center;/* padding-bottom: 70px; */padding:  0;margin:  0;}
 .intro--banner button {position: relative;/* padding: 5px 17px 5px 12px; */font-weight: 700;text-transform: uppercase;background-color: transparent;border: none;left: 31%;top: 70px;/* margin: 0; */}
