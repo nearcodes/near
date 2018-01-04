@@ -431,9 +431,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media (device-height : 568px) 
 and (device-width : 320px) 
 and (-webkit-min-device-pixel-ratio: 2) {
-.intro--banner img {width: 54%;bottom: 100%;left: 24%;}
-.intro--banner h1 {font-size: 15px;word-wrap: break-word;width: 110%;top: 21px;text-align: center;padding-bottom: 50px;}
-.intro--banner button {position: relative;padding: 5px 17px 5px 12px;font-weight: 700;text-transform: uppercase;background-color: transparent;border: none;left: 31%;top: 16px;}
+.intro--banner img {
+width: 54%;
+bottom: 50%;
+left: 24%;
+}
+.intro--banner h1 {font-size: 15px;word-wrap: break-word;width: 110%;top: 70px;text-align: center;padding-bottom: 50px;}
+.intro--banner button {position: relative;padding: 5px 17px 5px 12px;font-weight: 700;text-transform: uppercase;background-color: transparent;border: none;left: 31%;top: 60px;}
 .slidereControl {
     /* margin: -25px 0 0 0; */
     position: relative;
@@ -460,5 +464,3 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 }
-
-
