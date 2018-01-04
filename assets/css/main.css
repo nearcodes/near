@@ -313,11 +313,11 @@ display: flex; } }
 @media (max-width: 736px) and (min-width: 360px) and (orientation: landscape) {
 .device-notification {
 display: flex; } }
-@media(max-width: 359px) {
+/* @media(max-width: 359px) {
 .device-notification {
-/* display: flex;  */} 
+display: flex;} 
 
-}
+} */
 .section {
 opacity: 0;
 visibility: hidden;
@@ -1458,6 +1458,7 @@ top: 94%;
 @media (device-height : 568px) 
 and (device-width : 320px) 
 and (-webkit-min-device-pixel-ratio: 2) {
+
 .intro--banner img {
 width: 54%;
 bottom: 50%;
