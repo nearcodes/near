@@ -455,11 +455,11 @@ top: 110px;
 .slidereControl {
     /* margin: -25px 0 0 0; */
     position: relative;
-    top: -95%;
+    top: -150%;
 }
 .slidere {
     width: 300px;
-    height: 650px;
+    height: 950px;
     position: relative;
     margin: auto;
     padding-top: 300px;
@@ -473,8 +473,8 @@ top: 110px;
     position: relative;
     margin: 5px 0px 0px 145px;
     overflow: hidden;
-    top: -93%;
-    left: -6%;
+    top: -149%;
+    left: -7%;
 }
 
 }
