@@ -447,7 +447,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     /* margin:  0; */
 }
 .output {
-    font-size: 10px;
+    font-size: 10.5px;
     word-break: break-word;
     width: 111%;
     line-height: 179%;
