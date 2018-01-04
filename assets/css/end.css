@@ -438,7 +438,10 @@ top: 95%;
 @media (device-height : 568px) 
 and (device-width : 320px) 
 and (-webkit-min-device-pixel-ratio: 2) {
-.intro--banner img {width: 85%;bottom: 75%;left: 10%;/* padding:  0; *//* margin:  0; */}
+.intro--banner img {   
+	width: 54%;
+    bottom: 95%;
+    left: 24%;}
 .cofee.list-unstyled {
     position: absolute;
     left: 22%;
